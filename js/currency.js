@@ -23,6 +23,8 @@ $(document).ready(function(){
                 	/*$("#response").html("<p>Converted Value:"+total_amt+"</p>");
                 	$("#response").trigger('create');*/
                 	alert(total_amt);
+                }, error:function(){
+                	alert("Error");
                 }
 
             });
