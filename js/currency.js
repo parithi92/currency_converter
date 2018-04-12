@@ -21,6 +21,7 @@ $(document).ready(function(){
                 	var result = data[query]['val'];
                 	var total_amt = amount*result;
                 	$("#response").html("<p>Converted Value:"+total_amt+"</p>");
+                	$("#response").trigger('create');
                 }
 
             });
