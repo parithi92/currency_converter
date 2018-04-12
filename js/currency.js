@@ -20,8 +20,9 @@ $(document).ready(function(){
                 success: function(data){
                 	var result = data[query]['val'];
                 	var total_amt = amount*result;
-                	$("#response").html("<p>Converted Value:"+total_amt+"</p>");
-                	$("#response").trigger('create');
+                	/*$("#response").html("<p>Converted Value:"+total_amt+"</p>");
+                	$("#response").trigger('create');*/
+                	alert(total_amt);
                 }
 
             });
